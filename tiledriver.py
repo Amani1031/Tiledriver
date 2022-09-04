@@ -1,14 +1,9 @@
-# Name:         Amani Arora
-# Course:       CPE 202
-# Instructor:   Daniel Kauffman
-# Assignment:   Tile Driver
-# Term:         Spring 2021
 
 import random
 from typing import List, Tuple, Optional
 
 
-class PuzzleState:  # do not modify
+class PuzzleState: 
 
     def __init__(self, tiles: Tuple[int, ...], path: str) -> None:
         self.tiles = tiles
